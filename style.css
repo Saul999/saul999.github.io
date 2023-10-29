@@ -1,0 +1,51 @@
+/* body */
+body {
+    background: #0e2c48;
+}
+
+/* spacing on all sections */
+.section {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+.section:last-of-type {
+    padding-bottom: 4rem;
+}
+
+
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/spidermanbackground.jpeg');
+    background-size:cover;
+    position:relative;
+    padding: 0;
+    margin: 0;
+}
+
+/* text css above hero image*/
+.hero_title {
+    padding-top: 10rem;
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero_text {
+    text-align:left;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translate(0%, -50%);
+    color: red;
+    text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+}
+
+
+/*ABOUT ME*/
+#about {
+    color: red;
+    text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+    
+}
