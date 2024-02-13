@@ -1,101 +1,96 @@
 /* body */
 body {
-    background: #0e2c48;
+  background: #0e2c48;
 }
 
 /* spacing on all sections */
 .section {
-    margin-top: 4rem;
-    padding-top: 4rem;
+  margin-top: 4rem;
+  padding-top: 4rem;
 }
 .section:last-of-type {
-    padding-bottom: 4rem;
+  padding-bottom: 4rem;
 }
-
-
 
 /* hero background image */
 .bgimage {
-    height:100vh;
-    background: url('images/spidermanbackground.jpeg');
-    background-size:cover;
-    position:relative;
-    padding: 0;
-    margin: 0;
+  height: 100vh;
+  background: url("images/spidermanbackground.jpeg");
+  background-size: cover;
+  position: relative;
+  padding: 0;
+  margin: 0;
 }
 
 /* text css above hero image*/
 .hero_title {
-    padding-top: 10rem;
-    font-size: 4.5rem;
+  padding-top: 10rem;
+  font-size: 4.5rem;
 }
 .hero_desc {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 .hero_text {
-    text-align:left;
-    position: absolute;
-    top: 30%;
-    left: 5%;
-    transform: translate(0%, -40%);
-    color: red;
-    text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+  text-align: left;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  transform: translate(0%, -40%);
+  color: red;
+  text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
 }
-
 
 /*ABOUT ME*/
 #about {
-    color: red;
-    /*text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+  color: white;
+  /*text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
     */
 }
-
+#about h1 {
+  color: red;
+}
 
 /*portfolio*/
 #portfolio h1 {
-    color: red;
-    text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+  color: red;
+  text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
 }
-
 
 /*contact me*/
 #contact {
-    color: red;
-    text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+  color: red;
+  text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
 }
-
-
 
 /*footer*/
 .social-icons {
-    font-size: 36px;
-    cursor: pointer;
+  font-size: 36px;
+  cursor: pointer;
 }
 .fa-instagram:hover,
 .fa-twitter:hover,
 .fa-linkedin:hover {
-    color: #fff;
+  color: #fff;
 }
 .fab {
-    color: #000000;
+  color: #000000;
 }
 
 .servicesText.card {
-    height: 280px;
-    cursor: pointer;
-  }
+  height: 280px;
+  cursor: pointer;
+}
 .servicesIcon {
-    font-size: 36px;
-    text-align: center;
-    width: 100%;
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
 }
 .card-title {
-    text-align: center;
+  text-align: center;
 }
 .card:hover .servicesIcon {
-    color: #008000;
+  color: #008000;
 }
 .servicesText:hover {
-    border: 1px solid #008000;
+  border: 1px solid #008000;
 }
-
