@@ -1,7 +1,10 @@
 function NavBar() {
   return (
     <>
-      <h1>hello</h1>
+      <nav className="fixed top-0 left-1/2">
+        <i></i>
+        <i>GitHub</i>
+      </nav>
     </>
   );
 }
