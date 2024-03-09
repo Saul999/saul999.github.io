@@ -1,5 +1,6 @@
 // Project.js
 import { FaGithubSquare } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 function Project() {
   return (
@@ -7,22 +8,29 @@ function Project() {
       className="overflow-y-auto px-5 py-10"
       style={{ maxHeight: "calc(100vh - 50px)" }}
     >
+      <h1 className="text-3xl mb-3">Projects</h1>
+
       <div className="flex flex-col">
         {/* JuiceHub Card1 */}
-        <div className="bg-blue-700 p-4 rounded-lg mb-4">
-          <div>
-            <img
-              src="project1.jpg"
-              alt="JuiceHub"
-              className="w-1/4 rounded-lg mb-4 right-0 bg-slate-400"
-            />
-            <h3 className="text-lg font-bold w-3/4 bg-yellow-800">JuiceHUB</h3>
-            <p className="text-sm w-3/4">
-              An interactive, community driven, informative music website with
+        <div className="bg-blue-700 p-4 rounded-lg mb-4 flex">
+          <div className="flex flex-col w-3/4">
+            <h3 className="text-lg font-bold bg-yellow-800">JuiceHUB</h3>
+            <p className="text-sm bg-lime-400">
+              An interactive, community-driven, informative music website with
               data for more than 800+ unreleased songs.
             </p>
-            <FaGithubSquare />
+            <div className="flex">
+              <div className="w-10 bg-zinc-700 flex justify-between items-center">
+                <FaGithubSquare />
+                <FaExternalLinkAlt />
+              </div>
+            </div>
           </div>
+          <img
+            src="project1.jpg"
+            alt="JuiceHub"
+            className="w-1/4 rounded-lg bg-brown-400 ml-auto"
+          />
         </div>
         {/* Project Card 2 */}
         <div className="bg-gray-100 p-4 rounded-lg mb-4">
