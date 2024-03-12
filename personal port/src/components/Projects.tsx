@@ -40,18 +40,15 @@ function Project() {
             className="w-1/4 rounded-lg bg-brown-400 ml-auto"
           />
         </div>
-        {/* JuiceHub Card1 */}
+        {/* GameRecs */}
         <div className="p-4 bg-slate-700 rounded-lg mb-4 flex">
           <div className="flex flex-col w-3/4">
-            <p className="flex text-sm">
-              {" "}
-              Typescript MongoDB React Nodejs Express
-            </p>
+            <p className="flex text-sm"> Python</p>
 
-            <h3 className="flex text-lg font-bold">JuiceHUB </h3>
+            <h3 className="flex text-lg font-bold">GameRecs </h3>
             <p className="text-sm">
-              An interactive, community-driven, informative music website with
-              data for more than 800+ unreleased songs.
+              Video game recommendation system using python and jupyter
+              notebook.
             </p>
             <div className="flex">
               <div className="w-10 flex justify-between items-center">
@@ -67,18 +64,15 @@ function Project() {
             className="w-1/4 rounded-lg bg-brown-400 ml-auto"
           />
         </div>
-        {/* JuiceHub Card1 */}
+        {/* PIR sensor Cam */}
         <div className="p-4 bg-slate-700 rounded-lg mb-4 flex">
           <div className="flex flex-col w-3/4">
-            <p className="flex text-sm">
-              {" "}
-              Typescript MongoDB React Nodejs Express
-            </p>
+            <p className="flex text-sm"> Python</p>
 
-            <h3 className="flex text-lg font-bold">JuiceHUB </h3>
+            <h3 className="flex text-lg font-bold">PIR Sensor Security Cam </h3>
             <p className="text-sm">
-              An interactive, community-driven, informative music website with
-              data for more than 800+ unreleased songs.
+              Used python along with a raspberry pi to create a motion sensor
+              camera. On motion a 10 second clip is uploaded.
             </p>
             <div className="flex">
               <div className="w-10 flex justify-between items-center">
@@ -94,18 +88,15 @@ function Project() {
             className="w-1/4 rounded-lg bg-brown-400 ml-auto"
           />
         </div>
-        {/* JuiceHub Card1 */}
+        {/* CTRL HABITS Card */}
         <div className="p-4 bg-slate-700 rounded-lg mb-4 flex">
           <div className="flex flex-col w-3/4">
-            <p className="flex text-sm">
-              {" "}
-              Typescript MongoDB React Nodejs Express
-            </p>
+            <p className="flex text-sm"> Svelte Firebase</p>
 
-            <h3 className="flex text-lg font-bold">JuiceHUB </h3>
+            <h3 className="flex text-lg font-bold">CTRL Habits </h3>
             <p className="text-sm">
-              An interactive, community-driven, informative music website with
-              data for more than 800+ unreleased songs.
+              Websites that encourage users to develop positive new habits and
+              sustain them over time.
             </p>
             <div className="flex">
               <div className="w-10 flex justify-between items-center">
@@ -121,18 +112,18 @@ function Project() {
             className="w-1/4 rounded-lg bg-brown-400 ml-auto"
           />
         </div>
-        {/* JuiceHub Card1 */}
+        {/* Teacher Student Database */}
         <div className="p-4 bg-slate-700 rounded-lg mb-4 flex">
           <div className="flex flex-col w-3/4">
-            <p className="flex text-sm">
-              {" "}
-              Typescript MongoDB React Nodejs Express
-            </p>
+            <p className="flex text-sm"> PHP</p>
 
-            <h3 className="flex text-lg font-bold">JuiceHUB </h3>
+            <h3 className="flex text-lg font-bold">
+              CSUF Teacher Student Database{" "}
+            </h3>
             <p className="text-sm">
-              An interactive, community-driven, informative music website with
-              data for more than 800+ unreleased songs.
+              Developed a comprehensive database system enabling teachers to
+              efficiently oversee their classes, students, and grades. Students
+              have convenient access to their grades and class information.
             </p>
             <div className="flex">
               <div className="w-10 flex justify-between items-center">
