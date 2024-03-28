@@ -7,11 +7,11 @@ import Projects from "./components/Projects";
 function App() {
   return (
     <>
-      <div className="flex h-screen">
-        <div className="w-2/5 p-4 bg-gray-900">
+      <div className="flex flex-col lg:flex-row h-screen">
+        <div className="lg:w-2/5 p-4 bg-gray-900">
           <About />
         </div>
-        <div className="w-3/5 p-4 bg-gray-900">
+        <div className="lg:w-3/5 p-4 bg-gray-900">
           <Projects />
         </div>
       </div>
