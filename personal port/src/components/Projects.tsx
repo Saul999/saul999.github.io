@@ -1,5 +1,6 @@
 // Project.js
 import { FaGithubSquare } from "react-icons/fa";
+import { FaExternalLinkSquareAlt } from "react-icons/fa";
 // import { FaExternalLinkAlt } from "react-icons/fa";
 
 function Project() {
@@ -58,6 +59,9 @@ function Project() {
                   target={"_blank"}
                 >
                   <FaGithubSquare size={24} color="white" />
+                </a>
+                <a href="https://gamerecs.streamlit.app/" target={"_blank"}>
+                  <FaExternalLinkSquareAlt />
                 </a>
               </div>
             </div>
