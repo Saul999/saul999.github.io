@@ -161,7 +161,7 @@ function Project() {
             <h3 className="flex text-lg font-bold">Parser </h3>
             <p className="text-sm">
               Created a parser which will output Tokens and Lexems of a given
-              input
+              input.
             </p>
             <div className="flex">
               <div className="w-10 flex justify-between items-center">
@@ -177,13 +177,19 @@ function Project() {
             className="w-1/4 rounded-lg bg-brown-400 ml-auto"
           />
         </div>
-        {/* JuiceHub Card1 */}
+        {/* MultiThreading project (opsys project) */}
         <div className="p-4 bg-slate-700 rounded-lg mb-4 flex">
           <div className="flex flex-col w-3/4">
-            <p className="flex text-sm"> update</p>
+            <p className="flex text-sm"> C++</p>
 
-            <h3 className="flex text-lg font-bold">update </h3>
-            <p className="text-sm">update.</p>
+            <h3 className="flex text-lg font-bold">
+              Multithreading Analysis Program
+            </h3>
+            <p className="text-sm">
+              The Multithreaded Phrase Analysis Program is designed to read a
+              phrase from the terminal, split it into words, and analyze each
+              word concurrently using two separate threads.
+            </p>
             <div className="flex">
               <div className="w-10 flex justify-between items-center">
                 <a href="https://github.com/Saul999/JuiceHub">
